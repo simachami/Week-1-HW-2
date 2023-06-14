@@ -15,7 +15,7 @@ html {
 main{
         border: 1px solid lightgray;
         margin-top: 100px;
-        padding: 35px 20px 15px 15px;
+        padding: 35px 20px 10px 15px;
         
     }
 
@@ -44,9 +44,6 @@ section input{
     border: 1px solid lightgray;
 }
 
-section a{
-
-}
 
 .links a{
     color:#207ad3;
@@ -70,6 +67,10 @@ section a{
 }
 
 
+.help-link{
+    margin-right: 10px;
+}
+
 .help-link a{
    color: #207ad3;
    margin-top: 20px;
@@ -86,7 +87,7 @@ li{
 
 li:before{
     content: "\25BA \0020";
-    font-size: 8px;
+    font-size: 9px;
     position: absolute;
     bottom: 4px;
     left: -10px;
@@ -105,7 +106,7 @@ section p:before{
     height: 2px;
     background: lightgray;
     position:absolute;
-    bottom: 38%;
+    bottom: 39%;
     left:39%;
     
 }
@@ -117,7 +118,7 @@ section p:after{
     background: lightgray;
     display: block;
     position: absolute;
-    bottom: 38%;
+    bottom: 39%;
     right:39%;
 }
 
@@ -147,6 +148,7 @@ footer{
 
 footer a{
     font-size: 10px;
+    font-weight: 500;
     color: #207ad3;
     margin: 20px 25px;
     display: inline-block;
@@ -158,3 +160,38 @@ footer p{
     display: flex;
     justify-content: center;
 }
+
+/*@media (min-width: 400px){
+    section p{
+        display: flex;
+        justify-content: center;
+        color: gray;
+    }
+
+    section p:before{
+        content: "";
+        display: block;
+        width: 100px;
+        height: 2px;
+        background: lightgray;
+        position:absolute;
+        bottom: 52.5%;
+        left:41%;
+        
+    }
+
+    section p:after{
+        content:"";
+        height: 2px;
+        width: 100px;
+        background: lightgray;
+        display: block;
+        position: absolute;
+        bottom: 52.5%;
+        right:41%;
+    }
+
+
+}
+
+*/
