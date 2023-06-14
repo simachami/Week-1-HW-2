@@ -45,11 +45,16 @@ section input{
 }
 
 section a{
+
+}
+
+.links a{
     color:#207ad3;
     font-size: 12px;
     text-decoration: none;
-    display: flex;
-    flex-direction: row-reverse;
+   position: absolute;
+   right: 630px;
+    top: 221px;
 }
 
 
@@ -69,6 +74,7 @@ section a{
    color: #207ad3;
    margin-top: 20px;
    text-decoration: none;
+   font-size: 12px;
 }
 
 li{
@@ -99,7 +105,7 @@ section p:before{
     height: 2px;
     background: lightgray;
     position:absolute;
-    bottom: 36%;
+    bottom: 38%;
     left:39%;
     
 }
@@ -111,7 +117,7 @@ section p:after{
     background: lightgray;
     display: block;
     position: absolute;
-    bottom: 36%;
+    bottom: 38%;
     right:39%;
 }
 
@@ -127,7 +133,7 @@ span{
     margin-top: 40px;
     height: 2px;
     width: 100%;
-    background: gray;
+    background: lightgray;
     display:inline;
     position: absolute;
     left:0;
@@ -142,7 +148,7 @@ footer{
 footer a{
     font-size: 10px;
     color: #207ad3;
-    margin: 5px 25px;
+    margin: 20px 25px;
     display: inline-block;
     text-decoration: none;
 }
