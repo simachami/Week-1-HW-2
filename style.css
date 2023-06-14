@@ -66,6 +66,10 @@ section input{
 
 }
 
+.continue-button button:hover{
+    background-color: #efb82f;
+}
+
 
 .help-link{
     margin-right: 10px;
