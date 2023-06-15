@@ -44,14 +44,19 @@ section input{
     border: 1px solid lightgray;
 }
 
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .links a{
     color:#207ad3;
     font-size: 12px;
     text-decoration: none;
-   position: absolute;
-   right: 630px;
-    top: 221px;
+   display: flex;
+   
+   
 }
 
 
@@ -103,33 +108,29 @@ li:before{
 }
 
 section p{
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
     color: gray;
 }
 
-section p:before{
-    content: "";
-    display: block;
-    width: 100px;
-    height: 2px;
-    background: lightgray;
-    position:absolute;
-    bottom: 39%;
-    left:39%;
-    
+
+.lines{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 500px;
+    align-items: center;
+    gap: 16px;
 }
 
-section p:after{
-    content:"";
-    height: 2px;
-    width: 100px;
-    background: lightgray;
-    display: block;
-    position: absolute;
-    bottom: 39%;
-    right:39%;
+.line{
+    height: 1px;
+    background-color: gray;
+    flex-grow: 1;
 }
+
+
 
 .account-button button{
     padding-top: 3px;
@@ -175,7 +176,7 @@ footer p{
     justify-content: center;
 }
 
-@media (min-width: 400px){
+/* @media (min-width: 400px){
     section p{
         display: flex;
         justify-content: center;
@@ -219,4 +220,4 @@ footer p{
     }
 
 }
-
+ */
